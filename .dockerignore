@@ -1,0 +1,8 @@
+.git
+.data
+.env
+.env.*
+node_modules
+output
+.DS_Store
+.playwright-cli

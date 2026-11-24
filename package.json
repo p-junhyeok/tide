@@ -1,0 +1,17 @@
+{
+  "name": "tide-data-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first, visual data workflow workbench.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server/local.mjs",
+    "dev": "node --watch server/local.mjs",
+    "test": "node --test",
+    "check": "node scripts/check.mjs"
+  }
+}
